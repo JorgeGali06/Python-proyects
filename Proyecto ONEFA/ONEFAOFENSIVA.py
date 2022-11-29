@@ -1,4 +1,4 @@
-#Importar las librerias necesarias para hacer WebScripting
+
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 url = "https://receptor.com.mx/2022/09/07/estadisticas-liga-mayor-onefa-2022"
 r = requests.get(url)
 
-#Crear una sopa con BeautifulSoap para encontrar los elementos que queremos
+#Usamos BeautifulSoup
 
 soup = BeautifulSoup(r.content,'html.parser')
 columns = soup.find('table', attrs={"data-id":"168"}).find('thead').find('tr').find_all('th')
