@@ -1,6 +1,3 @@
-# Estadísticas Liga Mayor ONEFA 2022
+# Football Data API
 
-Aquí se encuentran los modulos de extraccion de los datos desde la pagina de Receptor.com.mx  
-[Ver datos](https://receptor.com.mx/2022/09/07/estadisticas-liga-mayor-onefa-2022/)
-
-Estadísticas por equipo – Ofensiva - Defensiva de la temporada 2022 de la Liga Mayor en la conferencia 14 Grandes.
+Para este ejercicio, utilizaremos el API de [Football Data](https://www.football-data.org/), que trae datos de las competencias de fútbol, las diferentes ligas, partidos y juadores. Para eso, tenemos que entrar a la página y crear un usuario. Esta API tiene una versión gratuita que es la que utilizaremos.
